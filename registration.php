@@ -52,5 +52,5 @@ if (isset($_POST['register'])) {
         }
     }
     
-    printf($msg, '<a href="../register.html">torna indietro</a>');
+    
 }
