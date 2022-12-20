@@ -10,6 +10,6 @@ $connessione = new mysqli ($host,$user,$pwd,$db,$port);
 
 if($connessione === false){
     die("Tentativo di connessione fallito. Errore: " . $connessione->connect_error);
-} echo "Connessione Riuscita!";
+} ;
 
 ?>

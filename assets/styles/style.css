@@ -1,6 +1,167 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
+
+html, body {
+    height: 100vh;
+    background-color: #D9E5F3;
+    overflow: hidden;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+.header{
+    background-color: white;
+    height: 120px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 7px 2px -2px #88B0F7;
+}
+.header{
+    padding-top: 3%;
+    padding-left: 1%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}    
+main{
+    background-image: url("./backgroundedusogno.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+h1{ 
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: #134077;
+    margin: 70px 0 20px;
+    z-index: 2;
+}
+
+h2{
+    text-align: center;
+    color: #134077;
+    margin-bottom: 20px;
+}
+
+.register {
+    position: absolute;
+    left: calc(50vw - 20vw);
+    width: 40vw;
+    max-height: 60vh;
+    background-color: #FFFFFF;
+    border: 1px solid #134077;
+    border-radius: 19px;
+    padding: 10px 15px 40px;
+    overflow: auto;
+    z-index: 2;
+    text-align: center;
+}
+
+form.account{
+    display: flex;
+    flex-direction: column;
+    margin:20px;
+}
+
+form.account label {
+    text-align: left;
+}
+
+form.account input {
+    border: none;
+    border-bottom: 1px solid #2D224C;
+    margin: 10px 0 20px 0;
+}
+.psw_box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.psw_box input{
+    width: 100%;
+}
+
+.psw_box i{
+    cursor: pointer;
+    color: #0057FF;
+    margin: 0 10px 15px;
+}
+
+.register input[type=submit]{
+    display: block;
+    width: calc(100% - 40px);
+    padding: 20px;
+    margin: 0 20px 20px 20px;
+    background: #0057FF;
+    border-radius: 11px;
+    text-transform:uppercase; 
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.log-register{
+    color: #2D224C;
+}
+
+.log-register:hover{
+    color: rgb(107, 121, 134);
+}
+
+
+
+.log-out{
+    margin-top:20px;
+    text-align: center;
+}
+.private {
+    position: absolute;
+    left: calc(50vw - 40vw);
+    width: 80vw;
+    max-height: 60vh;
+    padding: 15px;
+    overflow: auto;
+    z-index: 2;
+}
+
+.events {
+    display: flex;
+    justify-content: center;
+}
+
+.event {
+    padding: 40px 20px 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #134077;
+    border-radius: 19px;
+    margin:0 20px;
+}
+
+.event button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #0057FF;
+    border-radius: 11px;
+    text-transform:uppercase; 
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.date{
+    text-align: center;
+    font-size: 13;
+    color: #CCCCCC;
+}
+
+p.error{
+    background-color: rgb(240, 128, 128);
+}
+
+

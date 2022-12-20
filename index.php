@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Edusogno</title>
-        <link rel="stylesheet" href="assets/styles/style.css">
+        <link rel="stylesheet" href="./assets/styles/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">     
@@ -17,6 +17,8 @@
 
         include_once("./assets/styles/header.php") 
         ?>
+        <main>
+
         
         <h1>Hai già un account?</h1>
         <div class="register">
@@ -35,6 +37,6 @@
         </form>
 
         </div>
-        
+        </main>
     </body>
 </html>

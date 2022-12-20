@@ -14,6 +14,10 @@
     </head>
     <body>
         <?php 
+        
+
+        include_once("./assets/styles/header.php");
+       
             require_once ('connection.php');//connessione al db
 
             $email = $connessione->real_escape_string ($_POST['email']);
