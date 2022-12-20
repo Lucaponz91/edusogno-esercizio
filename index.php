@@ -13,8 +13,12 @@
         <script src="assets/js/script.js" defer></script> 
     </head>
     <body>
+        <?php
+
+        include_once("./assets/styles/header.php") 
+        ?>
         
-        <h1>Hai già un account</h1>
+        <h1>Hai già un account?</h1>
         <div class="register">
             
         <form class="account" action="login.php" method="post" id="login">
@@ -22,9 +26,9 @@
             <input type="email" id="email" placeholder="name@example.com" name="email" required/>
 
             <label for="password">Inserisci la password</label>
-            <div class="togglePwd">
+            <div class="psw_box">
                 <input type="password" id="password" placeholder="Scrivila qui" name="password" required/>
-                <i class="far fa-eye" id="togglePassword" style="margin-left: -25px; cursor: pointer;"></i>
+                
             </div>
             <input type="submit" value="ACCEDI" />
             <a class="log-register" href="registration.php">Non hai ancora un profilo? <strong>Registrati</strong></a>
